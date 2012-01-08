@@ -1,0 +1,15 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Click on the "Downloads" tab to access the source code.
+
+For information regarding the Text Message for Chumby widget, visit my blog at http://chumbydev.blogspot.com/.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
