@@ -1,0 +1,9 @@
+# Introduction #
+
+Welcome to the Text Message for Chumby Project
+
+
+# Details #
+
+  * Click on the "Downloads" tab to access the source code.
+  * For information regarding the Text Message for Chumby widget, visit my blog at http://chumbydev.blogspot.com/.
