@@ -1,0 +1,71 @@
+﻿* {
+	margin: 0px;
+	height: auto;
+}
+body 
+{
+	background-color: Blue;
+	color: #444444;
+	font: 72%/1.5 Verdana,Arial,Helvetica,sans-serif;
+}
+#outerPageArea
+{
+	background-color: Silver;
+	margin: 4px auto;
+	min-width: 800px;
+	padding-bottom: 10px; 
+	padding-top: 10px; 
+	position: relative;
+	width: 95%;
+}
+#innerPageArea
+{
+	border-collapse: collapse;
+	background-color: White;
+	height: 600px;
+	margin: 4px auto;
+	min-height: 600px;
+	width: 98%;
+}
+#main
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+#topBanner
+{
+	border-bottom: solid 2px black;
+	/*height: 200px;
+	min-height: 200px;*/
+	width: 100%;
+}
+#sideNav
+{
+	float: left;
+	height: 100%;
+	margin: auto;
+	min-width: 200px;
+	width: 20%;
+}
+#mainContent
+{
+	border-left: solid 2px black;
+	height: 600px;
+	min-height: 600px;
+	padding: 10px;
+	width: 100%;
+	vertical-align: top;
+}
+#footer
+{
+	border-top: solid 2px black;
+	min-height: 40px;
+	height: 40px;
+}
+.TeelSysLogo
+{
+	border-style: none;
+	height: 82px;
+	padding: 5px;
+	width: 167px;
+}

@@ -1,11 +1,16 @@
-#summary One-sentence summary of this page.
-
 = Introduction =
 
 Welcome to the Text Message for Chumby Project
+
+This project was originally hosted on Google Code at https://code.google.com/archive/p/text-message-for-chumby/.
+
+The Blog for this project is located at http://chumbydev.blogspot.com/2011/10/txtmsg-web-application-setup.html.
+
+This code was written in October 2011 and has not been updated. There are no plans to further modify the code. If you find it useful, please feel free to modify it however you wish.
 
 
 = Details =
 
   * Click on the "Downloads" tab to access the source code.
   * For information regarding the Text Message for Chumby widget, visit my blog at http://chumbydev.blogspot.com/.
+

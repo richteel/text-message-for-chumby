@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="Home"  description="Chumby Projects Home Page">
+      <siteMapNode url="~/TextMessage.aspx" title="Text Message"  description="Send a message to a Chumby Device from a web page or application">
+        <siteMapNode url="~/chumbyaddmessage.aspx" title="Send a Message"  description="Send a message to a Chumby device" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

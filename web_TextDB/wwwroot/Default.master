@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Default.master.cs" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">        
+        <!-- Outside Page Area -->
+        <table id="outerPageArea">
+            <tr>
+                <td>
+                    <!-- Inside Page Area -->
+                    <table id="innerPageArea">
+                        <tr>
+                            <td>
+                                <table id="main">
+                                    <tr>
+                                        <!-- Top Banner -->
+                                        <td colspan="2" id="topBanner">
+                                            <a href="http://www.teelsys.com/">
+                                                <img runat="server" alt="TeelSys Logo" src="~/images/Logos/TeelSys Logo_Cropped.gif" class="TeelSysLogo" />
+                                            </a>
+                                            <div>
+                                                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                                                </asp:SiteMapPath>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- Side Navigation -->
+                                        <td id="sideNav">
+                                            &nbsp;
+                                            <asp:SiteMapDataSource ID="SiteMapDataSource1" Runat="server" />
+                                            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1">
+                                            </asp:TreeView>
+                                        </td>
+                                        <!-- Main Content -->
+                                        <td id="mainContent">
+                                            &nbsp;
+                                            <asp:ContentPlaceHolder id="cphMainContent" runat="server">
+                                            
+                                            </asp:ContentPlaceHolder>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- Footer -->
+                                        <td colspan="2" id="footer">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
